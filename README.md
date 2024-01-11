@@ -58,30 +58,21 @@ Project setup
 
 # Activate shell with correct python version
 pyenv shell 3.11.4
-
 # Check correct python version is used
 python --version
-
 # Install poetry for this python version
 pip install poetry
-
 # Create the project directory and boilerplate
 poetry new my-app
-
 # Go to the created project dir
 cd my-app
-
 # Set local python version
 pyenv local 3.11.4
-
 # Install virtual env
 poetry install
-
-# Activate env if you want to develop or run the project in terminal,
-# otherwise proceed to setup your editor.
+# Activate env to run the project in terminal
 poetry shell
-
-# When poetry env is active in the terminal, you can install packages
+# Install packages
 poetry add art
 
 # Run some code
