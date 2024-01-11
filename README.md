@@ -5,12 +5,9 @@ Setting up a python project for development and delivery can be quite complicate
 ## Install pyenv
 
 My method requires pyenv and poetry -tools. In my experience these tools don't work very well together in the setup phase and
-all the following steps are the result of meticulous process of trial and error. I actually have multiple equally unobvious ways
+all the following steps are the result of a meticulous process of trial and error. I actually have multiple equally complicated ways
 to reach the end result, but this is what I use at the moment.
 
-### Pyenv
-
-On Mac
 ```bash
 # Install pyenv
 brew install pyenv
@@ -18,7 +15,7 @@ brew install pyenv
 
 **pyenv** is used to manage python versions on the development machine. It allows installing many python binaries without messing up the OS python.
 
-Rest of this doc explains how setup is done. You can skip it and just use the provided script.
+Rest of this doc explains how the setup is done. You can skip it and just use the provided script.
 
 ```bash
 # Usage: ./setup.sh <python_version> <project_dir>
@@ -99,5 +96,7 @@ You should see that the poetry virtual env was automatically activated. If not, 
 ## Done
 
 Now you can add source files to your new package under my_app -directory.
+
+## Disclaimer
 
 These steps work in OSX Sonoma 14.2.1 as of June 2024 with pyenv installed from brew.
