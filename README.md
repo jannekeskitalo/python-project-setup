@@ -74,9 +74,9 @@ poetry install
 poetry shell
 # Install packages
 poetry add art
-
 # Run some code
 python -c "from art import text2art; print(text2art('It works'))"
+
 ```
 
 ## Setup in VS Code
